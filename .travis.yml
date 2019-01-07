@@ -1,0 +1,18 @@
+language: python
+sudo: false
+
+matrix:
+    include:
+    - python: 3.6
+    - python: nightly
+
+before_install:
+    - python -m pip install --upgrade pip virtualenv
+
+# command to install dependencies
+install:
+    - pip install -r requirements-test.txt
+
+# command to run tests
+script:
+    - pytest -s -vvvv */* */tests
