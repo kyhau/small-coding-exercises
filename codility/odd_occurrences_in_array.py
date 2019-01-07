@@ -41,6 +41,7 @@ def solution(A):
     def func(array, start_pos, end_pos):
         """
         Find the mid point of start_pos and end_pos, find if the odd occurrence item is in the first or second half.
+        Binary search Best/Average/Worst: O(1)/O(log n)/O(log n)
         """
         if start_pos == end_pos:
             return array[start_pos]
