@@ -5,6 +5,9 @@ See https://app.codility.com/programmers/lessons/1-iterations/binary_gap/.
 Write an efficient algorithm for the following assumptions:
 N is an integer within the range [1 .. 2,147,483,647 (or 2^31 - 1)].
 """
+import logging
+logging.basicConfig(level=logging.DEBUG)
+
 
 # Convert decimal to binary with bin(), which returns result with prefix `0b`.
 decimal_to_binary = lambda x : int(bin(x)[2:])
@@ -16,7 +19,7 @@ def solution(N):
     The function returns 0 if N does not contain a binary gap.
     """
     binary_value = decimal_to_binary(N)
-    print(f"Checking {N} ({binary_value})")
+    logging.debug(f"Checking {N} ({binary_value})")
 
     # Strip all trailing 0s first, so the value of the first/last pos must be 1.
     stripped_value = str(binary_value).strip("0")
