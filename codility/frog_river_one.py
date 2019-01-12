@@ -3,16 +3,8 @@ Find the earliest time when a frog can jump to the other side of a river.
 See https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/.
 """
 import logging
-import random
 
 logging.basicConfig(level=logging.DEBUG)
-
-
-# N (len of array A) and X are integers within the range [1..100,000];
-random_int_100000 = lambda x : range(random.randint(1, 100000))
-
-# Each element of array A is an integer within the range [1..X].
-random_A = lambda X, N: [random.randint(1, X) for n in range(random.randint(1, N))]
 
 
 def solution(X, A):
