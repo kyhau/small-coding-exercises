@@ -7,6 +7,7 @@ import random
 import re
 import sys
 
+
 # Complete the flippingBits function below.
 def flippingBits(n):
 

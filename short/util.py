@@ -1,9 +1,14 @@
 
 # Convert decimal to binary with bin(), which returns result with prefix `0b`.
-decimal_to_binary = lambda x : int(bin(x)[2:])
+decimal_to_binary = lambda x: int(bin(x)[2:])
+
+# Convert binary to decimal
+binary_to_decimal = lambda x: int(n,2)
+
+flipping_bits = lambda x: x ^ 0xffffffff
 
 # Check if the given number is power of 2.
-is_power_of_2 = lambda x : (x > 0) and ((x & (x-1)) == 0)
+is_power_of_2 = lambda x: (x > 0) and ((x & (x-1)) == 0)
 
 
 # Generate array of N integers; N is within the range [1..100,000];
