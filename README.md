@@ -6,4 +6,5 @@ https://travis-ci.org/kyhau/small-coding-exercises.svg?branch=master)](https://t
 Some small, interesting Python challenges from
 - [Codility for Programmers](https://app.codility.com/programmers/)
 - [HackerRank](https://www.hackerrank.com)
+- [LeetCode](https://leetcode.com)
 - other sites
