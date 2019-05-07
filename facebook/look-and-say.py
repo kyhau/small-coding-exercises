@@ -11,3 +11,7 @@ Implement a function that outputs the Look and Say sequence:
 31131211131221
 13211311123113112211
 """
+
+
+def look_and_say(n):
+    pass
