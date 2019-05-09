@@ -19,6 +19,9 @@ def spiral(n):
     ret = [x[:] for x in [[0] * n] * n]
 
     v = 1
+    if n == 1:
+        return [[v]]
+
     try:
         for i in range(round(n/2)):
 
@@ -51,6 +54,28 @@ def spiral(n):
         raise
     return ret
 
+
+# Test cases
+
+ret = spiral(0)
+print_ret(ret)
+assert ret == []
+
+ret = spiral(1)
+print_ret(ret)
+assert ret == [[1]]
+
+ret = spiral(2)
+print_ret(ret)
+assert ret == [[1, 2], [4, 3]]
+
+ret = spiral(3)
+print_ret(ret)
+assert ret == [[1, 2, 3], [8, 9, 4], [7, 6, 5]]
+
+ret = spiral(4)
+print_ret(ret)
+assert ret == [[1, 2, 3, 4], [12, 13, 14, 5], [11, 16, 15, 6], [10, 9, 8, 7]]
 
 ret = spiral(8)
 print_ret(ret)

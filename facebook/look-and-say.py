@@ -40,7 +40,27 @@ def look_and_say(n):
     return ret
 
 
+# Test cases
+
+ret = look_and_say(0)
+assert ret == [[]]
+
+ret = look_and_say(1)
+assert ret == [[1]]
+
 ret = look_and_say(10)
+assert ret == [
+    [1],
+    [1, 1],
+    [2, 1],
+    [1, 2, 1, 1],
+    [1, 1, 1, 2, 2, 1],
+    [3, 1, 2, 2, 1, 1],
+    [1, 3, 1, 1, 2, 2, 2, 1],
+    [1, 1, 1, 3, 2, 1, 3, 2, 1, 1],
+    [3, 1, 1, 3, 1, 2, 1, 1, 1, 3, 1, 2, 2, 1],
+    [1, 3, 2, 1, 1, 3, 1, 1, 1, 2, 3, 1, 1, 3, 1, 1, 2, 2, 1, 1]
+]
 
 for r in ret:
     print("".join([str(i) for i in r]))

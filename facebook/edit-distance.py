@@ -42,6 +42,8 @@ def is_one_edit(w1, w2):
     return diff == 1
 
 
+# Test cases
+
 # Inserting one character anywhere in the word (including at the beginning and end)
 # Removing one character
 assert is_one_edit("abcdefg", "bcdefg")
