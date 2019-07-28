@@ -8,6 +8,8 @@ Some small, interesting Python challenges from
 - [CodeChef](https://www.codechef.com/)
 - [CodeForce](https://codeforces.com/)
 - [Codility for Programmers](https://app.codility.com/programmers/)
+- [Google Code Jam](https://codingcompetitions.withgoogle.com/codejam)
+- [Google Kick Start](https://codingcompetitions.withgoogle.com/kickstart)
 - [Google Tech Dev Guide](https://techdevguide.withgoogle.com/paths/advanced)
 - [HackerRank](https://www.hackerrank.com)
 - [LeetCode](https://leetcode.com)

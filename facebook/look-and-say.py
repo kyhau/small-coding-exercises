@@ -18,6 +18,7 @@ def look_and_say(n):
     for i in range(n):
         tmp = []
         if not ret:
+            # This is the first row with `1` only
             tmp.append(1)
         else:
             target, cnt = None, 0
