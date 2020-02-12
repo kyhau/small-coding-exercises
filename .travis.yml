@@ -3,8 +3,8 @@ sudo: false
 
 matrix:
     include:
-    - python: 3.6
-      dist: xenial
+    - python: 3.8
+      dist: bionic
 
 before_install:
     - python -m pip install --upgrade pip virtualenv

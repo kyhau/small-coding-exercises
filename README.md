@@ -1,6 +1,6 @@
 # small-coding-exercises
 
-`Python 3.6`: [![Build Status](
+`Python 3.8`: [![Build Status](
 https://travis-ci.org/kyhau/small-coding-exercises.svg?branch=master)](https://travis-ci.org/kyhau/small-coding-exercises)
 
 Some small, interesting Python challenges from
@@ -15,3 +15,6 @@ Some small, interesting Python challenges from
 - [LeetCode](https://leetcode.com)
 - [TopCoder](https://www.topcoder.com/challenges)
 - Other sites
+
+Learning Go
+- [Go by Example](https://gobyexample.com/)
